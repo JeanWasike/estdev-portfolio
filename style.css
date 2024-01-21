@@ -1,0 +1,175 @@
+/* The header */
+.navbar {
+    background-color: #333;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+  ul {
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: center;
+  }
+  li {
+    float: left;
+  }
+  #logo{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 500px;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 200px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+  /* Main content */
+  .main {
+    margin-top: 30px; 
+  }
+
+  /* Welcome Section */
+  #welcome-section {
+    display: flex;
+    height: 100vh;
+    overflow: hidden; 
+    margin-top: 30px;
+  }
+
+  .welcome-img-section,
+  .welcome-content {
+    flex: 1;
+    position: relative;
+  }
+
+  .welcome-img-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; 
+  }
+
+  .welcome-image {
+    max-width: 50%; 
+      max-height: 50vh; 
+      width: auto;
+      height: auto;
+      border-radius: 40%;
+      transition: transform 0.3s ease-in-out;
+  }
+
+  .welcome-img-section:hover .welcome-image {
+    transform: scale(1.1); 
+  }
+
+  .welcome-content {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 20px;
+      box-sizing: border-box;
+      margin-top: 200px;
+  }
+
+  h1 {
+    margin: 0;
+    color: #333; 
+    font-size: 100;
+  }
+
+  h3 {
+    margin: 5px 0 0;
+    color: #555;
+  }
+
+  span {
+    color: #86898b;
+  }
+
+  /* About Section */
+  .about-me {
+    max-width: 1000px; 
+    margin: 0 auto; 
+    text-align: center; 
+  }
+  
+  .about-me h2 {
+    color: #333; 
+  }
+  
+  .about-me p {
+    color: #555; 
+    line-height: 1.6; 
+  }
+  
+  #tech, #technology {
+    text-align: center; 
+    color: #333;
+  }
+  .tech-skills {
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: space-around; 
+    align-items: center; 
+    padding: 20px; 
+  }
+  .tech-skills > div {
+    flex: 0 0 200px; 
+    margin: 10px; 
+    padding: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;
+    text-align: center; 
+  }
+  
+  .tech-skills img {
+    max-width: 100%; 
+    border-radius: 20%; 
+    object-fit: cover;
+  }
+  
+  .tech-skills p {
+    margin: 10px 0 0; 
+    color: #555;
+  }
+  
+  .technologies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .technologies > div {
+    flex: 0 0 calc(10% - 20px); 
+    margin: 10px;
+    overflow: hidden; 
+    border-radius: 50%;
+  }
+  
+  .technologies img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  
+  
