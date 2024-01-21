@@ -46,6 +46,7 @@
   }
 
   /* Welcome Section */
+ 
   #welcome-section {
     display: flex;
     height: 100vh;
@@ -68,7 +69,7 @@
 
   .welcome-image {
     max-width: 50%; 
-      max-height: 50vh; 
+      max-height: 100vh; 
       width: auto;
       height: auto;
       border-radius: 40%;
@@ -83,7 +84,6 @@
       display: flex;
       align-items: flex-start;
       justify-content: center;
-      padding: 20px;
       box-sizing: border-box;
       margin-top: 200px;
   }
